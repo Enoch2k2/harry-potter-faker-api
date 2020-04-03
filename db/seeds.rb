@@ -21,5 +21,3 @@ end
 names.each do |name|
   Character.create(name: name, quote: Faker::Movies::HarryPotter.quote, house: Faker::Movies::HarryPotter.house, location: Faker::Movies::HarryPotter.location)
 end
-
-binding.pry
